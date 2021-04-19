@@ -431,7 +431,7 @@ def stickhelp(update, context):
 • `/kang`*:* reply to a sticker to add it to your pack.
 • `/stickers`*:* Find stickers for given term on combot sticker catalogue
 '''
-    update.effective_message.reply_photo("https://telegra.ph/file/db03910496f06094f1f7a.jpg", help_string, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_photo("https://telegra.ph/file/bfa8cccf1dabe475a7716.jpg", help_string, parse_mode=ParseMode.MARKDOWN)
 
 STICKERID_HANDLER = CommandHandler("stickerid", stickerid)
 GETSTICKER_HANDLER = CommandHandler("getsticker", getsticker)
